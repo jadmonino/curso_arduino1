@@ -24,7 +24,7 @@ void setup() {
  
 // Bucles en dos dimensiones (bucles anidados)
 
-String salida = "";
+/* String salida = "";
 for(int fila = 0; fila<10; fila++){
   for(int col = 0; col<10; col++){
     // Serial.print(String(fila) + ":" + String(col) + "\t"); // "\t" --> tabulador
@@ -32,7 +32,33 @@ for(int fila = 0; fila<10; fila++){
     }
     }
       // Serial.print("\n");  // "\n" --> salto de página
-      salida += "\n";
+      salida += "\n";                                            */
+
+// BUCLES INFINITOS 
+// ----------------
+
+int limite = 10;
+int contador = 0;
+
+for(;;){
+  if(contador == limite){
+    break;
+  }
+  Serial.println("infinito ... : 1 ");
+  Serial.println(contador);
+  contador ++;
+}                                    
+
+// BUCLES WHILE
+// ------------
+contador = 0;
+while (contador < limite) {
+  Serial.println("while ... : 1 ");
+  Serial.println(contador);
+  contador ++;
+}
+
+
 }
 
 

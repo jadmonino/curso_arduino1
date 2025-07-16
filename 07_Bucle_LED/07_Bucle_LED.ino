@@ -7,8 +7,8 @@ void setup() {
   pinMode(LED, OUTPUT);
   pinMode(ZUMBADOR, OUTPUT);
 
-
 }
+
 // ------------------------------------------
 int duracion = 20;
 int silencio = 200;
