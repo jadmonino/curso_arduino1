@@ -1,0 +1,21 @@
+#include <WiFi.h>
+
+char* ssid = "Aula 1";
+char* pwd = "Horus.2025";
+//--------------------------------------------
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, pwd);
+  while (WiFi.status() != WL_CONNECTED) {
+  delay(500);
+  Serial.print(".");
+  }
+  Serial.print("\n");
+  Serial.print("Conectado a: ");
+  Serial.println(WiFi.localIP());
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
