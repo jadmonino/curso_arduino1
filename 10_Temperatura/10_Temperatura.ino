@@ -26,7 +26,7 @@ void loop() {
   
   temp = dht.readTemperature();
   hume = dht.readHumidity();
-        digitalWrite(LED, HIGH);
+         digitalWrite(LED, HIGH);
 
   Serial.print("Temperatura: ");
   Serial.println(temp);
