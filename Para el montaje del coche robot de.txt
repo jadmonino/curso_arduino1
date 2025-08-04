@@ -1,0 +1,13 @@
+Para el montaje del coche robot de Microbit, hemos usado el siguiente manual:
+
+https://docs.keyestudio.com/projects/KS4036/en/latest/docs/MakecodeTutorial.html
+
+Las funcionalidades y cómo se carga el software en este prototipo se muestra en la siguiente página:
+
+https://www.amazon.com/KEYESTUDIO-Micro-Starter-Microbit-Makecode/dp/B0BY43BB3F
+
+Manual de la tarjeta MicroBit;
+
+MB0110 Micro:bit Main Board+USB Cable+Battery Holder with Batteries
+
+https://wiki.keyestudio.com/MB0110_Micro:bit_Main_Board%2BUSB_Cable%2BBattery_Holder_with_Batteries
